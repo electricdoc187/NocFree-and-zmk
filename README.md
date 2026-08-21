@@ -1,7 +1,7 @@
 > ## jis-custom branch / jis-custom ブランチ
 >
-> This branch contains a custom firmware configuration for the JIS-layout NocFree & keyboard.  
-> このブランチには、JIS配列のNocFree &向けカスタムファームウェア設定が含まれています。
+> This branch contains a customized ZMK firmware configuration for the Japanese (JIS) layout version of the NocFree & keyboard.  
+> このブランチは、NocFree & キーボードのカスタムZMKファームウェアを、日本語配列（JIS）版向けに調整したバージョンです。
 >
 > See [JIS Custom Firmware Guide](docs/jis-custom.md) for the keymap, build, flashing, and recovery notes.  
 > キー配列、ビルド、書き込み、復旧方法は [JISカスタムガイド](docs/jis-custom.md) を参照してください。
