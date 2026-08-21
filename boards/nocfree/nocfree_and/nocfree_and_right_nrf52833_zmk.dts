@@ -43,8 +43,8 @@
             <&pca22 8>, <&pca22 9>, <&pca22 10>, <&pca22 11>, <&pca22 12>, <&pca22 13>, <&pca22 14>, <&pca22 15>,
             /* Shift row: pca24 port 0, columns 32-39 */
             <&pca24 0>, <&pca24 1>, <&pca24 2>, <&pca24 3>, <&pca24 4>, <&pca24 5>, <&pca24 6>, <&pca24 7>,
-            /* Bottom row: pca24 port 1, columns 40-46 */
-            <&pca24 8>, <&pca24 9>, <&pca24 10>, <&pca24 11>, <&pca24 12>, <&pca24 13>, <&pca24 14>;
+/* Bottom row: pca24 port 1, columns 40-47 */
+<&pca24 8>, <&pca24 9>, <&pca24 10>, <&pca24 11>, <&pca24 12>, <&pca24 13>, <&pca24 14>, <&pca24 15>;
     };
 };
 
