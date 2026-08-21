@@ -1,7 +1,13 @@
 > ## jis-custom branch / jis-custom ブランチ
 >
-> This branch contains a customized ZMK firmware configuration for the Japanese (JIS) layout version of the NocFree & keyboard.  
-> このブランチは、NocFree & キーボードのカスタムZMKファームウェアを、日本語配列（JIS）版向けに調整したバージョンです。
+> This branch is a personal JIS-layout adaptation of the custom ZMK firmware for the NocFree & keyboard, based on the original work by [NocFreeKB](https://github.com/NocFreeKB/NocFree-and-zmk).  
+> このブランチは、原版の [NocFreeKB](https://github.com/NocFreeKB/NocFree-and-zmk) をもとに、NocFree & キーボードのカスタムZMKファームウェアを日本語配列（JIS）向けに個人的に調整したものです。
+>
+> It is shared as-is for reference. No support, feature requests, or compatibility guarantees are provided.  
+> 個人用の設定を参考情報としてそのまま公開しています。サポート、機能追加の要望受付、動作保証は行いません。
+>
+> Created by [@electricdoc187](https://github.com/electricdoc187) on 2026-08-21.  
+> 作成: [@electricdoc187](https://github.com/electricdoc187)（2026-08-21）
 >
 > See [JIS Custom Firmware Guide](docs/jis-custom.md) for the keymap, build, flashing, and recovery notes.  
 > キー配列、ビルド、書き込み、復旧方法は [JISカスタムガイド](docs/jis-custom.md) を参照してください。
