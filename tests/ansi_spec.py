@@ -81,21 +81,26 @@ DEFAULT_LAYER = [
     # Function row
     "kp ESC", "kp F1", "kp F2", "kp F3", "kp F4", "kp F5", "kp F6",
     "kp F7", "kp F8", "kp F9", "kp F10", "kp F11", "kp F12", "kp PSCRN", "kp HOME",
+
     # Number row
-    "kp GRAVE", "kp N1", "kp N2", "kp N3", "kp N4", "kp N5", "kp N6",
-    "kp N7", "kp N8", "kp N9", "kp N0", "kp MINUS", "kp EQUAL", "kp BSPC", "kp PG_UP",
+    "kp LANG5", "kp N1", "kp N2", "kp N3", "kp N4", "kp N5", "kp N6",
+    "kp N7", "kp N8", "kp N9", "kp N0", "kp MINUS", "kp EQUAL", "kp INT_YEN", "kp BSPC",
+
     # Tab row
     "kp TAB", "kp Q", "kp W", "kp E", "kp R", "kp T",
-    "kp Y", "kp U", "kp I", "kp O", "kp P", "kp LBKT", "kp RBKT", "kp BSLH",
+    "kp Y", "kp U", "kp I", "kp O", "kp P", "kp LBKT", "kp RBKT", "kp DEL",
+
     # Home row
     "kp CAPS", "kp A", "kp S", "kp D", "kp F", "kp G",
-    "kp H", "kp J", "kp K", "kp L", "kp SEMI", "kp SQT", "kp RET", "kp DEL",
+    "kp H", "kp J", "kp K", "kp L", "kp SEMI", "kp SQT", "kp BSLH", "kp RET",
+
     # Shift row
     "kp LSHFT", "kp Z", "kp X", "kp C", "kp V", "kp B",
-    "kp N", "kp M", "kp COMMA", "kp DOT", "kp FSLH", "kp RSHFT", "kp UP", "kp PG_DN",
-    # Bottom row, Mac legends: Fn / Control / Option / Command
-    "mo 1", "kp LCTRL", "kp LALT", "kp LGUI", "kp SPACE",
-    "kp SPACE", "kp RGUI", "mo 1", "kp RALT", "kp LEFT", "kp DOWN", "kp RIGHT","kp F14",
+    "kp N", "kp M", "kp COMMA", "kp DOT", "kp FSLH", "kp INT_RO", "kp RSHFT", "kp UP",
+
+    # Bottom row
+    "kp LCTRL", "kp LALT", "kp LGUI", "lt 1 INT_MUHENKAN", "kp SPACE",
+    "kp SPACE", "kp INT_HENKAN", "kp RGUI", "mo 1", "kp RCTRL", "kp LEFT", "kp DOWN", "kp RIGHT",
 ]
 
 # Flash geometry, from the two public Adafruit linker scripts. See
