@@ -25,11 +25,11 @@ EXPANDER_ADDRESSES = {"pca20": 0x20, "pca22": 0x22, "pca24": 0x24}
 # Populated inputs per row. These are the key counts of a standard ANSI board
 # split between T and Y; every other expander bit is an unpopulated position.
 LEFT_COUNTS = [7, 7, 6, 6, 6, 5]
-RIGHT_COUNTS = [8, 8, 8, 8, 8, 7]
+RIGHT_COUNTS = [8, 8, 8, 8, 8, 8]
 
 LEFT_KEYS = sum(LEFT_COUNTS)    # 37
-RIGHT_KEYS = sum(RIGHT_COUNTS)  # 47
-TOTAL_KEYS = LEFT_KEYS + RIGHT_KEYS  # 84
+RIGHT_KEYS = sum(RIGHT_COUNTS)  # 48
+TOTAL_KEYS = LEFT_KEYS + RIGHT_KEYS  # 85
 
 RIGHT_COL_OFFSET = LEFT_KEYS
 
@@ -95,7 +95,7 @@ DEFAULT_LAYER = [
     "kp N", "kp M", "kp COMMA", "kp DOT", "kp FSLH", "kp RSHFT", "kp UP", "kp PG_DN",
     # Bottom row, Mac legends: Fn / Control / Option / Command
     "mo 1", "kp LCTRL", "kp LALT", "kp LGUI", "kp SPACE",
-    "kp SPACE", "kp RGUI", "mo 1", "kp RALT", "kp LEFT", "kp DOWN", "kp RIGHT",
+    "kp SPACE", "kp RGUI", "mo 1", "kp RALT", "kp LEFT", "kp DOWN", "kp RIGHT","kp F14",
 ]
 
 # Flash geometry, from the two public Adafruit linker scripts. See
