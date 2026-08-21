@@ -1,3 +1,11 @@
+> ## jis-custom branch / jis-custom ブランチ
+>
+> This branch contains a custom firmware configuration for the JIS-layout NocFree & keyboard.  
+> このブランチには、JIS配列のNocFree &向けカスタムファームウェア設定が含まれています。
+>
+> See [JIS Custom Firmware Guide](docs/jis-custom.md) for the keymap, build, flashing, and recovery notes.  
+> キー配列、ビルド、書き込み、復旧方法は [JISカスタムガイド](docs/jis-custom.md) を参照してください。
+
 # NocFree Keyboard ZMK Porting Guide
 
 This document is intended for community members developing ZMK support for NocFree nRF52833 split keyboards. It provides the hardware interfaces and porting information required for community development. ZMK-related code is implemented and maintained by the community; NocFree does not provide official ZMK firmware or guarantee compatibility.
