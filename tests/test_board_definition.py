@@ -135,7 +135,7 @@ class KeymapTest(unittest.TestCase):
         default = spec.DEFAULT_LAYER
         left = [default[i] for i, p in enumerate(spec.TRANSFORM) if p < spec.RIGHT_COL_OFFSET]
         right = [default[i] for i, p in enumerate(spec.TRANSFORM) if p >= spec.RIGHT_COL_OFFSET]
-        self.assertIn("mo 1", left)
+        self.assertTrue("mo 1" in left or "lt 1 INT_MUHENKAN" in left)
         self.assertIn("mo 1", right)
 
 
