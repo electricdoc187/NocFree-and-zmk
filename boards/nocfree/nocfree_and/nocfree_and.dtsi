@@ -39,7 +39,7 @@
     matrix_transform0: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         rows = <1>;
-        columns = <84>;
+        columns = <85>;
 
         map = <
             /* Function row */
@@ -59,7 +59,7 @@
             RC(0,69) RC(0,70) RC(0,71) RC(0,72) RC(0,73) RC(0,74) RC(0,75) RC(0,76)
             /* Bottom row */
             RC(0,32) RC(0,33) RC(0,34) RC(0,35) RC(0,36)
-            RC(0,77) RC(0,78) RC(0,79) RC(0,80) RC(0,81) RC(0,82) RC(0,83)
+            RC(0,77) RC(0,78) RC(0,79) RC(0,80) RC(0,81) RC(0,82) RC(0,83) RC(0,84)
         >;
     };
 };
