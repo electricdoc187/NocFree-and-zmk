@@ -83,7 +83,7 @@ DEFAULT_LAYER = [
     "kp F7", "kp F8", "kp F9", "kp F10", "kp F11", "kp F12", "kp PSCRN", "kp HOME",
 
     # Number row
-    "kp LANG5", "kp N1", "kp N2", "kp N3", "kp N4", "kp N5", "kp N6",
+    "kp GRAVE", "kp N1", "kp N2", "kp N3", "kp N4", "kp N5", "kp N6",
     "kp N7", "kp N8", "kp N9", "kp N0", "kp MINUS", "kp EQUAL", "kp INT_YEN", "kp BSPC",
 
     # Tab row
