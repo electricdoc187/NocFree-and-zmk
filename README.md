@@ -11,6 +11,7 @@
 >
 > See [JIS Custom Firmware Guide](docs/jis-custom.md) for the keymap, build, flashing, and recovery notes.  
 > キー配列、ビルド、書き込み、復旧方法は [JISカスタムガイド](docs/jis-custom.md) を参照してください。
+> Keymap Editor https://nickcoutsos.github.io/keymap-editor/ にも対応しています。
 
 # NocFree Keyboard ZMK Porting Guide
 
