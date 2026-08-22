@@ -160,18 +160,17 @@ class FormattingTest(unittest.TestCase):
 
     def test_lines_are_not_excessively_long(self):
         allowance = {".dts", ".dtsi", ".keymap"}
+
         for path in self.files():
-            limit = 130 if path.suffix in allowance else 100
             for number, line in enumerate(path.read_text().splitlines(), 1):
-                # A Markdown table row cannot be wrapped without breaking it,
-                # and a workflow `uses:` pinned to a full commit SHA cannot be
-                # shortened without losing the pin.
+                limit = 180 if path.suffix in allowance else 100
+
+                # Markdownの表と、完全なコミットSHAを含むuses:行は例外。
                 if path.suffix == ".md" and line.lstrip().startswith("|"):
                     limit = max(limit, 120)
                 elif path.suffix == ".yml" and line.lstrip().startswith("uses:"):
                     limit = max(limit, 130)
-                else:
-                    limit = 180 if path.suffix in allowance else 100
+
                 with self.subTest(f"{path.relative_to(ROOT)}:{number}"):
                     self.assertLessEqual(len(line), limit)
 
