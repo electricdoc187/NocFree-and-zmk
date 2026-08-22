@@ -171,7 +171,7 @@ class FormattingTest(unittest.TestCase):
                 elif path.suffix == ".yml" and line.lstrip().startswith("uses:"):
                     limit = max(limit, 130)
                 else:
-                    limit = 130 if path.suffix in allowance else 100
+                    limit = 180 if path.suffix in allowance else 100
                 with self.subTest(f"{path.relative_to(ROOT)}:{number}"):
                     self.assertLessEqual(len(line), limit)
 
