@@ -126,7 +126,13 @@ class KeymapTest(unittest.TestCase):
 
     def test_recovery_and_output_bindings_are_reachable(self):
         function = self.layers()["function_layer"]
-        for binding in ("bootloader", "sys_reset", "out OUT_USB", "out OUT_BLE", "bt BT_CLR"):
+
+        for binding in (
+            "bootloader",
+            "bootloader_hold 0 0",
+            "out OUT_USB",
+            "bt BT_CLR",
+        ):
             with self.subTest(binding):
                 self.assertIn(binding, function)
 
