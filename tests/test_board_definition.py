@@ -126,7 +126,7 @@ class KeymapTest(unittest.TestCase):
 
     def test_recovery_and_output_bindings_are_reachable(self):
         function = self.layers()["function_layer"]
-        source = KEYMAP_PATH.read_text(encoding="utf-8")
+        source = read(KEYMAP)
 
         uses_hold = "bootloader_hold 0 0" in function
         uses_standalone = "bootloader" in function
