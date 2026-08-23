@@ -88,9 +88,5 @@
 &trans                &trans                &trans                &trans        &trans        &trans        &trans          &trans
             >;
         };
-
-        layer_2 {
-            status = "reserved";
-        };
     };
 };
