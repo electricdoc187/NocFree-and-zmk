@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: MIT
 
 name: "NocFree & — JIS / Keymap Editor / ZMK Studio"
+run-name: "JIS / Keymap Editor / ZMK Studio — ${{ github.ref_name }}"
 
 on:
   push:
