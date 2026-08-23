@@ -37,6 +37,15 @@ This branch is customized for personal use.
 元プロジェクトの作者・貢献者の皆さまに感謝します。  
 Thanks to the original project authors and contributors.
 
+---
+
+## 以降はオリジナルのドキュメントです / Original Documentation Below
+
+以下は、元プロジェクトのREADMEを変更せずに掲載しています。  
+The remainder of this README is the original project documentation and is reproduced without modification.
+
+---
+
 # NocFree Keyboard ZMK Porting Guide
 
 This document is intended for community members developing ZMK support for NocFree nRF52833 split keyboards. It provides the hardware interfaces and porting information required for community development. ZMK-related code is implemented and maintained by the community; NocFree does not provide official ZMK firmware or guarantee compatibility.
