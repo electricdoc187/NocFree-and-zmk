@@ -137,7 +137,7 @@ class FormattingTest(unittest.TestCase):
         for path in self.files():
             if path.suffix == ".md":
                 continue
-    
+
             for number, line in enumerate(path.read_text().splitlines(), 1):
                 with self.subTest(f"{path.relative_to(ROOT)}:{number}"):
                     self.assertEqual(line, line.rstrip())
@@ -163,17 +163,17 @@ class FormattingTest(unittest.TestCase):
 
     def test_lines_are_not_excessively_long(self):
         allowance = {".dts", ".dtsi", ".keymap"}
-    
+
         for path in self.files():
             if path.suffix == ".md":
                 continue
-    
+
             for number, line in enumerate(path.read_text().splitlines(), 1):
                 limit = 180 if path.suffix in allowance else 100
-    
+
                 if path.suffix == ".yml" and line.lstrip().startswith("uses:"):
                     limit = max(limit, 130)
-    
+
                 with self.subTest(f"{path.relative_to(ROOT)}:{number}"):
                     self.assertLessEqual(len(line), limit)
 
