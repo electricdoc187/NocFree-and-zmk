@@ -1,18 +1,41 @@
-> ## jis-custom branch / jis-custom ブランチ
->
-> This branch is a personal JIS-layout adaptation of the custom ZMK firmware for the NocFree & keyboard, based on the original work by [NocFreeKB](https://github.com/NocFreeKB/NocFree-and-zmk).  
-> このブランチは、原版の [NocFreeKB](https://github.com/NocFreeKB/NocFree-and-zmk) をもとに、NocFree & キーボードのカスタムZMKファームウェアを日本語配列（JIS）向けに個人的に調整したものです。
->
-> It is shared as-is for reference. No support, feature requests, or compatibility guarantees are provided.  
-> 個人用の設定を参考情報としてそのまま公開しています。サポート、機能追加の要望受付、動作保証は行いません。
->
-> Created by [@electricdoc187](https://github.com/electricdoc187) on 2026-08-21.  
-> 作成: [@electricdoc187](https://github.com/electricdoc187)（2026-08-21）
->
-> See [JIS Custom Firmware Guide](docs/jis-custom.md) for the keymap, build, flashing, and recovery notes.  
-> キー配列、ビルド、書き込み、復旧方法は [JISカスタムガイド](docs/jis-custom.md) を参照してください。  
-> It also supports Keymap Editor https://nickcoutsos.github.io/keymap-editor/ .  
-> Keymap Editor https://nickcoutsos.github.io/keymap-editor/ にも対応しています。
+# NocFree & — JIS Keymap / ZMK Studio Edition
+
+> 日本語配列（JIS）向けにキー配列を調整し、ZMK Studioによる実行時のキーマップ編集にも対応させた個人用ブランチです。  
+> This personal branch adapts the keymap for the Japanese (JIS) layout and adds support for runtime keymap editing with ZMK Studio.
+
+- 対象ブランチ / Branch: [`jis-studio`](https://github.com/electricdoc187/NocFree-and-zmk/tree/jis-studio)
+- 元プロジェクト / Upstream: [NocFreeKB/NocFree-and-zmk](https://github.com/NocFreeKB/NocFree-and-zmk)
+- キーボード / Keyboard: NocFree &
+
+## このブランチでの変更点 / Changes in This Branch
+
+- 日本語配列（JIS）の物理キー配置とキーマップに対応  
+  JIS physical layout and keymap support
+- 無変換キー：短押しで無変換、長押しでFnレイヤー  
+  Muhenkan key: tap for Muhenkan, hold for Fn layer
+- 変換キー、￥キー、ろキーなどのJIS固有キーに対応  
+  JIS-specific keys including Henkan, Yen, and Ro
+- Fn+EscおよびFn+Delete：短押しで再起動、1.5秒長押しでブートローダー  
+  Fn+Esc and Fn+Delete: tap to restart, hold for 1.5 seconds to enter the bootloader
+- ZMK Studioでのキーマップ編集に対応  
+  Runtime keymap editing through ZMK Studio
+- Fnレイヤーに画面輝度、メディア操作、音量操作を割り当て  
+  Display brightness, media, and volume controls on the Fn layer
+
+## ZMK Studioについて / About ZMK Studio
+
+ZMK Studio対応ファームウェアは左側ユニットへインストールします。  
+Studioで保存したキー変更はキーボード本体に保存されます。
+
+GitHub上の初期キーマップへ戻す場合は、ZMK Studioの **Restore Stock Settings** を使用してください。
+
+## 注意 / Notes
+
+このブランチは個人利用を目的として調整したものです。  
+This branch is customized for personal use.
+
+元プロジェクトの作者・貢献者の皆さまに感謝します。  
+Thanks to the original project authors and contributors.
 
 # NocFree Keyboard ZMK Porting Guide
 
