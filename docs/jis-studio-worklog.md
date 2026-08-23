@@ -1,6 +1,7 @@
 # 2026-08-23 ZMK Studio対応開始
 
-対象ブランチ: `jis-studio`  
+対象ブランチ: `jis-studio`
+
 元ブランチ: `jis-custom`
 
 ## 目的
