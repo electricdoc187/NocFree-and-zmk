@@ -17,7 +17,7 @@
   JIS-specific keys including Henkan, Yen, and Ro
 - Fn+EscおよびFn+Delete：短押しで再起動、1.5秒長押しでブートローダー  
   Fn+Esc and Fn+Delete: tap to restart, hold for 1.5 seconds to enter the bootloader
-- ZMK Studioでのキーマップ編集に対応  
+- **ZMK Studioでのキーマップ編集に対応  **
   Runtime keymap editing through ZMK Studio
 - Fnレイヤーに画面輝度、メディア操作、音量操作を割り当て  
   Display brightness, media, and volume controls on the Fn layer
